@@ -9,6 +9,10 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Executable
-add_executable(day10
+add_executable(day10_part1
 	main.cpp
+)
+
+add_executable(day10_part2
+        part2.cpp
 )
